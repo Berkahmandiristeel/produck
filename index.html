@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section dengan gambar latar belakang -->
+  <header>
+    <div class="header-content">
+      <h1>PT. BERKAH MANDIRI STEEL</h1>
+      <p>Perusahaan kami menyediakan produk dan layanan terbaik untuk Anda.</p>
+    </div>
+  </header>
+
+  <!-- Navigasi Bar di bawah header -->
+  <nav>
+    <ul>
+      <li><a href="#home">Beranda</a></li>
+      <li><a href="#about">Tentang Kami</a></li>
+      <li><a href="#products">Produk</a></li>
+      <li><a href="#contact">Kontak</a></li>
+      <li><a href="#payment">Layanan Pembayaran</a></li>
+    </ul>
+  </nav>
+
+  <!-- Section Konten -->
+  <section id="home">
+    <div class="content">
+      <h1>Selamat Datang</h1>
+      <h3>Kami adalah perusahaan yang sudah beroperasi sejak tahun 2020. Dengan pengalaman lebih dari 5 tahun, kami berkomitmen untuk memberikan produk dan layanan terbaik yang dapat memenuhi kebutuhan pelanggan kami secara profesional dan efisien. Di PT. Berkah Mandiri Steel, kami percaya bahwa inovasi dan kualitas adalah kunci utama dalam menghadirkan solusi yang tepat. Tim kami yang terdiri dari para ahli di bidangnya selalu siap membantu Anda, dengan mengutamakan kepuasan dan keberhasilan Anda sebagai prioritas utama kami. Kami juga berkomitmen untuk terus berkembang, mengikuti tren terbaru, dan selalu menjaga standar tinggi dalam setiap aspek bisnis kami. Melalui berbagai produk dan layanan yang kami tawarkan, kami berusaha menjadi mitra terpercaya dalam mencapai tujuan bersama.</h3>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="content">
+      <h1>Tentang Kami</h1>
+      <p>Kami adalah perusahaan yang berdedikasi untuk memberikan kualitas terbaik dalam setiap produk dan layanan kami.</p>
+    </div>
+  </section>
+
+  <section id="products">
+    <div class="content">
+      <h1>Produk Kami</h1>
+      <h3>PT. Berkah Mandiri Steel Menawarkan berbagai produk unggulan yang akan memenuhi kebutuhan Anda.</h3>
+      <img src="Produk 1.jpg" alt="Deskripsi gambar Produk 1" />
+      <img src="Produck 2.jpg" alt="Deskripsi gambar Produk 2" />
+      <img src="Produck 3.jpg" alt="Deskripsi gambar Produk 3" />
+      <img src="Produck 4.jpg" alt="Deskripsi gambar Produk 4" />
+      <img src="Produck 5.jpg" alt="Deskripsi gambar Produk 5" />
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="content">
+      <h1>Kontak Kami</h1>
+      <p>Alamat,email dan no telepon</p>
+    </div>
+    <!-- Tombol Chat WhatsApp -->
+<div class="whatsapp-chat">
+    <a href="https://wa.me/6281284713617?text=Halo,%20saya%20mau%20tanya!" target="_blank" class="whatsapp-btn">
+      <img src="LOGO_WA-removebg-preview.png" alt="Chat dengan WhatsApp" />
+      Chat dengan Kami
+    </a>
+  </div>
+  
+  <!-- Kotak Chatbot -->
+  <div id="chatbot" class="chatbot">
+    <div class="chat-header">
+      <span>Chatbot PT. Berkah Mandiri Steel</span>
+      <button id="closeChat" onclick="closeChat()">X</button>
+    </div>
+    <div class="chat-body" id="chat-body">
+      <p>Hi! Ada yang bisa saya bantu?</p>
+    </div>
+    <input type="text" id="userInput" placeholder="Ketik pertanyaan...">
+    <button onclick="sendMessage()">Kirim</button>
+  </div>
+  
+  </section>
+
+  <section id="payment">
+    <div class="content">
+      <h1>Layanan Pembayaran</h1>
+      <p>Proses pembayaran yang mudah dan aman untuk setiap transaksi.</p>
+    </div>
+    <div class="bank-option">
+        <img src="BCA_mobile_logo-removebg-preview.png" alt="Logo Bank BCA">
+        <p>Bank BCA</p>
+        <p>No. Rekening: 123-456-7890</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="content">
+      <p>&copy; 2025 PT. Berkah Mandiri Steel.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
